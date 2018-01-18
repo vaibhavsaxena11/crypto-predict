@@ -92,3 +92,8 @@ plt.xlabel('t')
 plt.ylabel('x(t)')
 plt.legend()
 plt.show()
+
+
+## with rmsprop
+# Train Score: 1.990961 RMSE
+# Test Score: 2.675569 RMSE
