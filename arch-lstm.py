@@ -15,7 +15,7 @@ np.random.seed(7)
 
 def arch1(phi0, phi1, alpha0, alpha1, length=10):
 	x = [0]
-	sigma = 0.1
+	sigma = 1
 	e = [np.random.normal(0,sigma,1)[0]]
 	x.append(phi0 + phi1*x[0] + e[0])
 
